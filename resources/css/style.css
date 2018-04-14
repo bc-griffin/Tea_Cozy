@@ -1,0 +1,169 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.5;
+  text-align: center;
+}
+
+header {
+  border: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+body,
+header,
+.logo {
+  background-color: black;
+}
+
+.logo {
+  padding-left: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+a {
+  padding: 5px 20px;
+}
+
+body,
+a {
+  color: seashell;
+}
+
+#our-mission {
+  display: inline-block;
+}
+
+.our-mission-title {
+  width: 1200px;
+  background-color: black;
+  position: absolute;
+  top: 375px;
+  z-index: 1;
+}
+
+.our-mission-img {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+.our-mission-contents,
+h4 {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#tea-of-the-month
+
+.tea-of-the-month-contents {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5 {
+  height: 200px;
+  width: 300px;
+  margin: 12px;
+}
+
+.box-4,
+.box-5 {
+  padding-bottom: 80px;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5 {
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  }
+
+.img-1 {
+  background-image: url("../images/img-berryblitz.jpg");
+}
+
+.img-2 {
+  background-image: url("../images/img-spiced-rum.jpg");
+}
+
+.img-3 {
+  background-image: url("../images/img-donut.jpg");
+}
+
+.img-4 {
+  background-image: url("../images/img-donut.jpg");
+}
+
+.img-5 {
+  background-image: url("../images/img-bedford-bizarre.jpg");
+}
+
+.box-desc {
+  margin-top: 10px;
+}
+
+#locations {
+  height: 571px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations-title {
+  position: absolute;
+  top: 1530px;
+}
+
+.downtown-address,
+.east-bayside-address,
+.oakdale-address {
+  height: 250px;
+  width: 300px;
+  margin: 15px 40px;
+  background-color: black;
+}
+
+h3,
+p {
+  position: relative;
+  padding: 5px;
+  bottom: 10px;
+}
+
+.the-tea-cozy {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding: 20px;
+}
